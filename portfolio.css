@@ -1,0 +1,98 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;} 
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    position: relative;
+    background-color: lightgray;
+
+}
+
+.mainDiv {
+    background-color: lightgray;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+
+}
+
+/*--------------------- Button Settings */
+/* .buttons {
+    display: flex;
+}  */
+
+
+.navigationPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: grey;
+    flex-basis: 100%;
+}
+
+#home {
+    background: lightskyblue;
+}
+#biography {
+    background: lightskyblue;
+}
+#resume {
+    background: lightskyblue;
+}
+#projects {
+    background: lightskyblue;
+}
+#links {
+    background: lightskyblue;
+}
+
+
+
+h1 {
+    color: red;
+    text-align: center;
+    background-color: white;
+}
+
+ /* .flex-container {
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: white;
+    padding: 1em;
+    margin: 0 auto;
+    font-size: 30px; color:black
+}  */
+
+
+
+
+/*}
+.document.createElement{
+    background-color: rgb(14, 39, 39);
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    width: auto;
+    color: black;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.buttonNavigation {
+    align-content: center;
+} */
+
+
+
