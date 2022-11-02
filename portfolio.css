@@ -1,42 +1,87 @@
 * {
-    margin: 0 auto;
-    padding: 0 auto;
+    /* margin: 0 auto; */
+    padding: 0 auto; 
     box-sizing: border-box;
-font-family: 'Times New Roman', Times, serif;} 
+    height: 0 auto;
+    border-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;} 
+    
+/* .h1 {
+    color: red;
+    text-align: center;
+    background-color: white;
+} */
+.WebPageTitle {
+    color: royalblue;
+    display: center;
+    text-align: center;
+    border: 1px solid black;
+    border-style: solid, black;
+    background-color: aliceblue;
+}
+.header {
+    box-sizing:content-box;
+    display: center;
+    justify-content: space-between;
+    /* padding: 20px; */
+    /* background-color: re; */
+}
+
+#navigation-Button-Panel {
+    display: flex;
+    height:2em;
+    border-style: solid, black;
+    border: 1.5px solid black;
+    justify-content: space-between;
+    background-color: lightsteelblue;
+}
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    width: auto;
+    width: 0 auto;
     position: relative;
-    background-color: lightgray;
-
+    background-color: whitesmoke;
+    border-style: solid, black;
+    border: 15px solid lightslategrey;
+    /* padding: 50px; */
+    margin: 20px;
 }
 
-.mainDiv {
-    background-color: lightgray;
+
+/* .mainDiv {
     display: flex;
     width: 90%;
     margin: 0 auto;
     height: 100%;
 
-}
-
-/*--------------------- Button Settings */
-/* .buttons {
-    display: flex;
-}  */
+} */
 
 
-.navigationPanel {
+,containerMain {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: grey;
-    flex-basis: 100%;
+    flex-basis: auto;
 }
+.contentbox {
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+/* .contentText {
 
+} */
+ /* .navigation-Button-Panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    flex-basis: 100%;
+ } */
 #home {
     background: lightskyblue;
+    cursor: pointer;
+    /* cursor:context-menu;#home:hover grab {} changes color and format of button*/ 
 }
 #biography {
     background: lightskyblue;
@@ -50,14 +95,10 @@ body {
 #links {
     background: lightskyblue;
 }
+ 
 
 
 
-h1 {
-    color: red;
-    text-align: center;
-    background-color: white;
-}
 
  /* .flex-container {
     display: flex;  
