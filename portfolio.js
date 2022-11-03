@@ -1,7 +1,7 @@
 $(() => {
 
 // $('#InformativeInformation').hide()
-        //jq grabbing/selexcted ^ when fist load and hide all info in InformativeInformation
+//         //jq grabbing/selected ^ when fist load and hide all info in InformativeInformation
 
 // const showInfo = () => {
 // $('#InformativeInformation').slideDown(1000)
@@ -13,53 +13,55 @@ $(() => {
 
 //Home Button
 
-// $('#contentBiography').hide()
+$('#home').hide()
 
-// const showHome = () => {
-//     $('#contentHome').slideDown(1000)
-// } 
-//     $('#contentHome').on('click', showInfo)
+const contentHome = () => {
+    $('#home').slideDown(1000)
+} 
+$('#homeB').on('click', contentHome)
 
 
-//Biograpghy button
-
-$('#contentHome').hide()
+// //Biography button   
+$('#biography').hide()
 
 const showBiography = () => {
-    $('#contentBiography').slideDown(1000)
-    // $('#contentRedumr').hide()
-    //hinding home content
-}
-$('#contentBiography').on('click', showcontentBiography)
-//click function to show bio once clicked
-
+    $('#biography').slideDown(1000)
+        //hiding home content
+}  
+    $('#biographyB').on('click', showBiography)
+    // $('#biography').hide()
+    //click function to show bio once clicked
+   
 
 // // //Resume Button
 
-// $('#contentBiography').hide()
-// const showResume = () => {
-//     $('#contentResume').slideDown(1000)
-//     $('#contentResume').on('click', showInfo)
-// }
+$('#resume').hide()
+
+const showResume = () => {
+    $('#resume').slideDown(1000)
+}
+$('#resumeB').on('click', showResume)
 
 
 // // //Projects Button
-// $('#contentResume').hide()
 
-// const showProjects = () => {
-//     $('#contentProjects').slideDown(1000)
-//     $('#contentProjects').on('click', showInfo)
-// }
+$('#projects').hide()
+
+const showProjects = () => {
+    $('#projects').slideDown(1000)
+}
+    $('#projectsB').on('click', showProjects)
+
 
 
 // // //Links
-// $('#contentProjects').hide()
 
-// const showLinks = () => {
-//     $('#contentLinks').slideDown(1000)
-//     $('#contentLinks').on('click', showInfo)
-// }
+$('#link').hide()
 
+const showLinks = () => {
+    $('#link').slideDown(1000)
+}
+    $('#linkB').on('click', showLinks)
 
 })
 
@@ -218,3 +220,15 @@ $('#contentBiography').on('click', showcontentBiography)
 
 //JQ dot methods to hide, start, and hide.
 //.hide()
+
+// Attempted button clicks. Failed
+
+
+//when element is clicked, show the content
+// $(e).click(showHomeContent(){
+//     //home id/button.....contentHome=div for home
+//     $('#home').click(contentHome) {
+//         //inputed the div name to html that needs to be selected.....
+//         $('contentHome').html('Selected')
+//     }
+//  }

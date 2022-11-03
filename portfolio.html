@@ -18,18 +18,30 @@
     <!-- <h1>Biography</h1> -->
     <div id="navigation-Button-Panel">
         <!-- <h2>Navigation Panel</h2> -->
-        <button id="home">Home</button>
-        <button id="biography">Biography</button>
-        <button id="resume">Resume</button>
-        <button id="projects">Projects</button>
-        <button id="links">Links</button> 
+
+        <!-- <button id="home">Home </button -->
+        <button class="contentHome" id="homeB" ><a href="#contnetHome"><ion-icon name="Home"></ion-icon> Home</a></button>
+       
+        <!-- <button id="biography">Biography</button> -->
+        <button class="contentBiography" id="biographyB" ><a href="#contentBiography"><ion-icon name="biography"></ion-icon> Biography</a></button>
+
+        <!-- <button id="resume">Resume</button> -->
+        <button class="contentResume" id="resumeB" ><a href="#contentResume"><ion-icon name="Resume"></ion-icon> Resume</a></button>
+
+        <!-- <button id="projects">Projects</button> -->
+        <button class="contentProject" id="projectsB" ><a href="#contentProject"><ion-icon name="project"></ion-icon> Project</a></button>
+
+        <!-- <button id="links">Links</button> -->
+        <button class="contentLinks" id="linkB" ><a href="#contentLinks"><ion-icon name="Link"></ion-icon> Link</a></button>
+
+
         <!-- items of parent -->
     </div>
 </header>
 
 <body>
-   <!--          Biograph Button         -->
-    <div id="contentBiography">
+   <!--          Biography Button         -->
+    <div id="biography">
         <!-- <h1>Eyan Cea</h1> -->
 
         <div id="contentBox">
@@ -51,9 +63,11 @@
 
 
 <!--                 Home Content  -->
-<div class="contentHome">
-    <h1>Welcome, Enjoy Browsing</h1>
+<div class="contentHome" id="home">
+    <h2>Welcome, Enjoy Browsing</h2>
+    <p>
 
+    </p>
     <div id="containerMainHome">
         <h2>Eyan Home Button</h2>
     </div>
@@ -62,36 +76,39 @@
 
 
                <!-- Resume Content -->
-<!-- <div class="contentResume">
+<div class="contentResume" id="resume">
     <h1>Resume of Eyan Cea</h1>
 
     <div id="containerMainResume">
         <h2>Eyan Resume Button</h2>
     </div>
     
-</div> -->
+</div>
 
               <!-- Project Content --> 
-<!-- <div class="contentProject">
+<div class="contentProject" id=projects>
     <h1>Project of Eyan Cea</h1>
 
     <div id="containerMainProject">
         <h2>Eyan Project Button</h2>
     </div>
     
-</div> -->
+</div>
 
-<!--                Links Conent -->
-<!-- <div class="contentLinks">
+<!--                Links Content -->
+<div class="contentLinks" id="link">
     <h1>Links of Eyan Cea</h1>
-
-    <div id="containerMainHome">
+    <div id="containerMainLinks">
         <h2>Eyan Links Button</h2>
     </div>
     
-</div> -->
+</div>
 
 </body>
+
+<!-- <footer>
+    
+</footer> -->
 </html>
 
 

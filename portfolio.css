@@ -58,26 +58,83 @@ body {
     display: flex;
     flex-direction:column ;
     justify-content: space-between;
+    
 }
- 
-#home {
+
+/*               Home Page */
+.contentHome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: auto;
+}
+.containerMainHome {
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+
+/*               Resume Page */
+.contentResume {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: auto;
+}
+
+.containerMainResume {
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+
+/*                Project Page */
+.contentProject {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: auto;
+}
+.containerMainProject {
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+
+/*               Link Page */
+.contentLink {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: auto;
+}
+
+.containerMainLink {
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+}
+
+
+/*               Button Formats */
+#homeB {
     background: lightskyblue;
     cursor: pointer;
     /* cursor:context-menu;#home:hover grab {} changes color and format of button*/ 
 }
-#biography {
+#biographyB {
     background: lightskyblue;
     cursor: pointer;
 }
-#resume {
+#resumeB {
     background: lightskyblue;
     cursor: pointer;
 }
-#projects {
+#projectsB {
     background: lightskyblue;
     cursor: pointer;
 }
-#links {
+#linksB {
     background: lightskyblue;
     cursor: pointer;
 }
