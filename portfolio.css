@@ -47,17 +47,8 @@ body {
     margin: 20px;
 }
 
-
-/* .mainDiv {
-    display: flex;
-    width: 90%;
-    margin: 0 auto;
-    height: 100%;
-
-} */
-
-
-,containerMain {
+/*              Biography Page               */
+.contentBiography {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -68,16 +59,7 @@ body {
     flex-direction:column ;
     justify-content: space-between;
 }
-/* .contentText {
-
-} */
- /* .navigation-Button-Panel {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: gray;
-    flex-basis: 100%;
- } */
+ 
 #home {
     background: lightskyblue;
     cursor: pointer;
@@ -85,21 +67,35 @@ body {
 }
 #biography {
     background: lightskyblue;
+    cursor: pointer;
 }
 #resume {
     background: lightskyblue;
+    cursor: pointer;
 }
 #projects {
     background: lightskyblue;
+    cursor: pointer;
 }
 #links {
     background: lightskyblue;
+    cursor: pointer;
 }
- 
 
 
 
 
+
+
+
+
+/* .mainDiv {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+
+} */
  /* .flex-container {
     display: flex;  
     flex-direction: row;
@@ -111,7 +107,13 @@ body {
     font-size: 30px; color:black
 }  */
 
-
+ /* .navigation-Button-Panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    flex-basis: 100%;
+ } 
 
 
 /*}
