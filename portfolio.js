@@ -12,21 +12,26 @@ $(() => {
 
 
 //Home Button
-
 $('#home').hide()
 
 const contentHome = () => {
     $('#home').slideDown(1000)
+    $('#biography').hide()
+    $('#resume').hide()
+    $('#projects').hide()
+    $('#link').hide()
 } 
 $('#homeB').on('click', contentHome)
-
 
 // //Biography button   
 $('#biography').hide()
 
 const showBiography = () => {
     $('#biography').slideDown(1000)
-        //hiding home content
+    $('#home').hide()
+    $('#resume').hide()
+    $('#projects').hide()
+    $('#link').hide()
 }  
     $('#biographyB').on('click', showBiography)
     // $('#biography').hide()
@@ -34,32 +39,42 @@ const showBiography = () => {
    
 
 // // //Resume Button
-
 $('#resume').hide()
 
 const showResume = () => {
     $('#resume').slideDown(1000)
+    $('#biography').hide()
+    $('#home').hide()
+    $('#projects').hide()
+    $('#link').hide()
 }
 $('#resumeB').on('click', showResume)
 
 
 // // //Projects Button
-
 $('#projects').hide()
 
 const showProjects = () => {
     $('#projects').slideDown(1000)
+    $('#resume').hide()
+    $('#biography').hide()
+    $('#home').hide()
+    $('#link').hide()
 }
     $('#projectsB').on('click', showProjects)
 
 
 
 // // //Links
-
 $('#link').hide()
 
 const showLinks = () => {
     $('#link').slideDown(1000)
+    $('#projects').hide()
+    $('#resume').hide()
+    $('#biography').hide()
+    $('#home').hide()
+    
 }
     $('#linkB').on('click', showLinks)
 

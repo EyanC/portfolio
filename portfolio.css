@@ -26,6 +26,14 @@
     /* padding: 20px; */
     /* background-color: re; */
 }
+.footer {
+    /* display: flex;
+    height:2em;
+    border-style: solid, black;
+    border: 1.5px solid black; */
+    /* justify-content: space-between; */
+    background-color: lightsteelblue;
+}
 
 #navigation-Button-Panel {
     display: flex;
@@ -46,6 +54,7 @@ body {
     /* padding: 50px; */
     margin: 20px;
 }
+
 
 /*              Biography Page               */
 .contentBiography {
@@ -134,7 +143,7 @@ body {
     background: lightskyblue;
     cursor: pointer;
 }
-#linksB {
+#linkB {
     background: lightskyblue;
     cursor: pointer;
 }
