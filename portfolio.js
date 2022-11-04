@@ -11,7 +11,7 @@ $(() => {
 
 
 
-//Home Button
+//Home Button //toggle, or delete hide to have page lode with home displayed
 $('#home').hide()
 
 const contentHome = () => {
