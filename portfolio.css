@@ -4,8 +4,10 @@
     box-sizing: border-box;
     /* height: 0 auto; */
     border-color: aquamarine;
-    font-family: 'Times New Roman', Times, serif;} 
+    font-family: 'Times New Roman', Times, serif;
+} 
 
+  
 /* .h1 {
     color: red;
     text-align: center;
@@ -27,7 +29,7 @@
 }
 
 #navigation-Button-Panel {
-    display: flex;
+    display:flex;
     height:2em;
     border-style: solid, black;
     border: 1.5px solid black;
@@ -37,6 +39,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    height: 100%;
     width: 0 auto;
     position: relative;
     background-color: whitesmoke;
@@ -47,27 +50,88 @@ body {
 }
 
 /*               Home Page */
-/* .contentHome {
-    display: flex; */
-    /* flex-direction: row; 
-    justify-content: space-between; 
-    flex-basis: auto; */
-/* } */
+ .contentHome {
+     /* display: fle
+     tx;
+    background-image: url("https://i.ibb.co/wrsRNRd/IMG-0573.jpg")
+    height: fit-contents; 
+    display: flex; 
+    z-index: 1;  */
+    /* color: black */
+    
+}  
 
 #h1H {
     display: flex;
     text-align:center;
+    /* text-size-adjust: auto; */
+    /* text-decoration: solid; */
+     /* position:relative; */
+    /* text-align: left; */
+    color: black;
+    /* font-size: 6rem;  */
+     /* line-height: .93 */
 }
+
+#arnieHome1{
+/* position: relative; */
+height: 100vh; 
+ width: 100 %;
+/* display: flex; */ 
+align-items: left;
+justify-content: left;
+/* opacity: 20%; */
+position: relative; 
+/* height: 100vh;
+width: 100%; */
+display: flex;
+align-items: center;
+justify-content: center;
+background-image: url("https://i.ibb.co/wrsRNRd/IMG-0573.jpg");
+background-size: cover;
+border-radius: 9% 60% 9% 100%;
+width: 500px;
+/* 75%; */
+
+}
+/* .text-block {
+    position:absolute;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+#arnieHome1::before { 
+    /* justify-content: space-evenly;
+    padding: 0 50% 0 50%; 
+    background-image: url("https://i.ibb.co/wrsRNRd/IMG-0573.jpg");
+    position:absolute;
+    /top:0px;
+    left:0px; 
+    display:flex;
+    opacity: 0.75;%;
+    background-size: cover;  */
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #06030340;
+    opacity: .1%;
+} 
+
 #p1P {
-    text-align: justify;
-    /* color:coral; */
+    text-align: center;
+    color: white
 }
-.containerMainHome {
-     display: flex; 
-     flex-direction:column ; 
-     justify-content: space-between; 
-}
-.containerMainHomePic
+
+
 /*              Biography Page               */
 .contentBiography {
     display: flex;

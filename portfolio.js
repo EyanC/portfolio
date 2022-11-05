@@ -78,7 +78,16 @@ const showLinks = () => {
 }
     $('#linkB').on('click', showLinks)
 
+// const darkMode = () => {
+//     $('body').css ('background', 'black')
+//     $('body').css ('color', 'white')
+//     $('body').css ('color', 'white')
+// }
+// $('#dark').on ('click', darkMode)
+
+
 })
+
 
 // const buttonHome = $('#home')
 // buttonHome.on('click', buttonClick)
