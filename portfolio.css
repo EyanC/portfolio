@@ -153,17 +153,35 @@ width: 500px;
 
 /*               Resume Page */
 .contentResume {
+    align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis: auto;
-}
+    flex-direction: column;
+    flex-basis: auto; 
+    font-family: 'Times New Roman', Times, serif;
+    /* color: crimson; */
 
-.containerMainResume {
-    display: flex;
-    flex-direction:column ;
-    justify-content: space-between;
+
+    
 }
+#resumeGlimpse {
+    flex: 1px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-style: solid black;
+    /* max-height: 50%;
+    min-height: 40%; */
+    overflow: scroll;
+}
+/* #resumeGlimpse img {
+   
+} */
+
+/* .scrollResume {
+    background-image: url(https://docs.google.com/document/d/1n0GI_54yQ2WN4SMTSU-D7iaAGJJI_cHh/edit?usp=sharing&ouid=113398256315191890773&rtpof=true&sd=true);
+    align-self: center;
+    /* overflow: scroll; */
+/* }  */
 
 /*                Project Page */
 .contentProject {
