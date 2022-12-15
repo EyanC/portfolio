@@ -14,4 +14,8 @@ I attempted to add a dark mode, my mind was finished by the time I go to the end
 I would have like to add another picture on the home page and change the opacity, but I was not able to figure it out without lightening the text. Yes, they were in seperate <divs>. 
 
 Overall I feel that I have learned how to do a lot! 
+  
+  
+  Project Link
+https://app.netlify.com/sites/famous-syrniki-dca408/overview
 
